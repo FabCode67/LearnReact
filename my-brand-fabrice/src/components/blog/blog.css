@@ -1,0 +1,38 @@
+.blog_container{
+    display: grid;
+    width: 80%;
+    height: 3%;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2rem;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 2%;
+}
+.btn1{
+    font-size: 20px;
+    padding: 0.2rem;
+    border-radius: .3rem;
+}
+.blog_item{
+    background: var(--color-bg-variant);
+    padding: 1rem;
+    border-radius: 1rem;
+    border:1px solid transparent;
+    transition: var(--transition);
+    height: 65%;
+}
+
+.blog_item:hover{
+    border-color: var(--color-primary-variant);
+    background: transparent;
+}
+
+.blog_item h3{
+    margin: 1.2rem 0 2rem;
+}
+
+.blog_item-image{
+    border-radius: 1.5rem;
+    overflow: hidden;
+    height: 55%;
+}
